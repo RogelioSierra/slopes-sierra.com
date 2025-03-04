@@ -1,48 +1,53 @@
-style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #e9d4b3; /* Earthy brown background */
-        }
-        header {
-            background: #a855f7; /* Deep purple for a touch of modernity */
-            color: white;
-            padding: 1em 0;
-            text-align: center;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin-right: 15px;
-        }
-        section {
-            background-color: #f4d7b9; /* Lighter brown for sections */
-            padding: 2em;
-            margin: 1em;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .project-card {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 0.5em;
-        }
-        .project-card:last-child {
-            border-bottom: none;
-        }
-        footer {
-            background: #a855f7; /* Deep purple for a touch of modernity */
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9d4b3; /* Earthy brown background */
+}
+
+header {
+    background: #964b00; /* Deep Brown for a touch of modernity */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+section {
+    background-color: #f4d7b9; /* Lighter brown for sections */
+    padding: 2em;
+    margin: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5em;
+}
+
+.project-card:last-child {
+    border-bottom: none;
+}
+
+footer {
+    background: #964b00; /* Deep brown for a touch of modernity */
+    color: white;
+    text-align: center;
+    padding: .25em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
